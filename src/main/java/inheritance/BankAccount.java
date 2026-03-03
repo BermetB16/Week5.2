@@ -1,6 +1,5 @@
 package inheritance;
 
-// BankAccount.java
 public class BankAccount {
     protected String accountNumber;
     protected String accountHolder;

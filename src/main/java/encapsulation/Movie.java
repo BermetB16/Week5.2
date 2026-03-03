@@ -5,7 +5,6 @@ public class Movie {
     private String director;
     private int duration; // in minutes
 
-    // Getters and Setters
     public String getTitle() {
         return title;
     }
@@ -30,7 +29,6 @@ public class Movie {
         this.duration = duration;
     }
 
-    // Method to get formatted movie details
     public String getMovieDetails() {
         int hours = duration / 60;
         int minutes = duration % 60;

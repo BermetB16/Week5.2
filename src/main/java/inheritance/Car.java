@@ -6,7 +6,6 @@ public class Car extends Vehicle {
         System.out.println("Repairing a car");
     }
 
-    // Car specific method
     public double calculateFuelEfficiency(double distance, double fuelUsed) {
         return distance / fuelUsed;
     }

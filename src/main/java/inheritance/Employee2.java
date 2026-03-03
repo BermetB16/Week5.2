@@ -1,4 +1,3 @@
-// Employee2.java (renamed to avoid conflict)
 package inheritance;
 
 public class Employee2 extends Person {

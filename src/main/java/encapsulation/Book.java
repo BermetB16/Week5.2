@@ -5,7 +5,6 @@ public class Book {
     private String author;
     private double price;
 
-    // Getters and Setters
     public String getTitle() {
         return title;
     }
@@ -30,7 +29,6 @@ public class Book {
         this.price = price;
     }
 
-    // Method to apply discount
     public void applyDiscount(double percentage) {
         if (percentage > 0 && percentage <= 100) {
             double discountAmount = price * (percentage / 100);

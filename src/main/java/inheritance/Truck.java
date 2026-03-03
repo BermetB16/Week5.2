@@ -1,6 +1,5 @@
 package inheritance;
 
-// Truck.java
 public class Truck extends Vehicle {
     private double cargoCapacity;
 

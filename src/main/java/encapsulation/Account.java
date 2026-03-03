@@ -5,7 +5,6 @@ public class Account {
     private String accountHolder;
     private double balance;
 
-    // Getters and Setters
     public String getAccountNumber() {
         return accountNumber;
     }
@@ -30,7 +29,6 @@ public class Account {
         this.balance = balance;
     }
 
-    // Deposit method
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
@@ -40,7 +38,6 @@ public class Account {
         }
     }
 
-    // Withdraw method
     public void withdraw(double amount) {
         if (amount > 0 && amount <= balance) {
             balance -= amount;

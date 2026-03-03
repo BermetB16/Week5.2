@@ -5,7 +5,6 @@ public class Desktop {
     private String processor;
     private int ramSize;
 
-    // Getters and Setters
     public String getBrand() {
         return brand;
     }
@@ -30,7 +29,6 @@ public class Desktop {
         this.ramSize = ramSize;
     }
 
-    // Method to upgrade RAM
     public void upgradeRam(int value) {
         if (value > 0) {
             ramSize += value;

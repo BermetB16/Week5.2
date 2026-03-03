@@ -35,12 +35,10 @@ public class Employee {
         this.jobTitle = jobTitle;
     }
 
-    // Bonus calculation
     public double calculateBonus() {
         return salary * 0.05;
     }
 
-    // Performance report
     public String generatePerformanceReport() {
         return name + " (" + jobTitle + "): Good performance";
     }

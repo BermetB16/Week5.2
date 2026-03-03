@@ -1,6 +1,5 @@
 package inheritance;
 
-// Manager.java
 public class Manager extends Employee {
     private int teamSize;
 

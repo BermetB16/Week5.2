@@ -1,4 +1,3 @@
-// Programmer.java
 package inheritance;
 
 public class Programmer extends Developer {

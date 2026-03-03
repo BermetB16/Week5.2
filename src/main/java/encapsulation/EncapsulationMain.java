@@ -40,20 +40,17 @@ public class EncapsulationMain {
         //5
         System.out.println("1. Creating circle with radius");
         Circle circle1 = new Circle();
-        System.out.println("\n2. Using getter to get radius:");
         System.out.println("  Current radius: " + circle1.getRadius());
-        System.out.println("\n3. Using setter to change radius to 7.5:");
         circle1.setRadius(7.5);
         System.out.println("  New radius: " + circle1.getRadius());
         System.out.println("  New area: " + String.format("%.2f", circle1.calculateArea()));
         System.out.println("  New perimeter: " + String.format("%.2f", circle1.calculatePerimeter()));
         //6
-        System.out.println("1. Creating car with constructor:");
+        System.out.println("1. Creating car: ");
         Car car1 = new Car();
         car1.setCompany_name("Honda");
         car1.setModel_name("Accord");
-        car1.setYear(2023);
-        System.out.println("\n2. Using getters to get values:");
+        car1.setYear(1205);
         System.out.println("  Company: " + car1.getCompany_name());
         System.out.println("  Model: " + car1.getModel_name());
         System.out.println("  Year: " + car1.getYear());
@@ -61,16 +58,15 @@ public class EncapsulationMain {
         //7
         Student student = new Student();
         student.setStudent_id(101);
-        student.setStudent_name("John Doe");
+        student.setStudent_name("Johni Youw");
         System.out.println("Student ID: " + student.getStudent_id());
         System.out.println("Student Name: " + student.getStudent_name());
 
-        System.out.println("\nAdding grades:");
+        System.out.println("\nAdding grades: ");
         student.addGrade(85.5);
         student.addGrade(92.0);
         student.addGrade(78.5);
         student.addGrade(105.0); // Invalid
-
         System.out.println("All grades: " + student.getGrades());
         System.out.println("Average grade: " + student.calculateAverage());
         System.out.println("--------------------\n");
@@ -78,12 +74,12 @@ public class EncapsulationMain {
         Book book = new Book();
         book.setTitle("Java Programming");
         book.setAuthor("Hanny bunny");
-        book.setPrice(45.99);
+        book.setPrice(445.99);
         System.out.println("Title: " + book.getTitle());
         System.out.println("Author: " + book.getAuthor());
         System.out.println("Price: $" + book.getPrice());
 
-        System.out.println("\nApplying 10% discount:");
+        System.out.println("Applying 10% discount:");
         book.applyDiscount(10);
         System.out.println("New price: $" + book.getPrice());
         System.out.println("--------------------\n");
@@ -95,21 +91,17 @@ public class EncapsulationMain {
         System.out.println("Brand: " + phone.getBrand());
         System.out.println("Model: " + phone.getModel());
         System.out.println("Storage: " + phone.getStorageCapacity() + "GB");
-
-        System.out.println("\nIncreasing storage by 64GB:");
         phone.increaseStorage(64);
         System.out.println("New storage: " + phone.getStorageCapacity() + "GB");
         System.out.println("--------------------\n");
         //10
         Desktop desktop = new Desktop();
-        desktop.setBrand("Dell");
+        desktop.setBrand("Stervella Devill");
         desktop.setProcessor("Intel i7");
         desktop.setRamSize(8);
         System.out.println("Brand: " + desktop.getBrand());
         System.out.println("Processor: " + desktop.getProcessor());
         System.out.println("RAM: " + desktop.getRamSize() + "GB");
-
-        System.out.println("\nUpgrading RAM by 8GB:");
         desktop.upgradeRam(8);
         System.out.println("New RAM: " + desktop.getRamSize() + "GB");
         System.out.println("--------------------\n");

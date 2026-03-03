@@ -7,7 +7,6 @@ public class Student {
     private String student_name;
     private ArrayList<Double> grades = new ArrayList<>();
 
-    // Getter and Setter for student_id
     public int getStudent_id() {
         return student_id;
     }
@@ -16,7 +15,6 @@ public class Student {
         this.student_id = student_id;
     }
 
-    // Getter and Setter for student_name
     public String getStudent_name() {
         return student_name;
     }
@@ -25,7 +23,6 @@ public class Student {
         this.student_name = student_name;
     }
 
-    // Method to add grade with validation
     public void addGrade(double grade) {
         if (grade >= 0 && grade <= 100) {
             grades.add(grade);
@@ -35,12 +32,10 @@ public class Student {
         }
     }
 
-    // Method to get all grades
     public ArrayList<Double> getGrades() {
         return grades;
     }
 
-    // Method to calculate average
     public double calculateAverage() {
         if (grades.isEmpty()) {
             return 0;

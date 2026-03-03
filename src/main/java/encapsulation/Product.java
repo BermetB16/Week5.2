@@ -5,7 +5,6 @@ public class Product {
     private String productCode;
     private double price;
 
-    // Getters and Setters
     public String getProductName() {
         return productName;
     }
@@ -30,7 +29,6 @@ public class Product {
         this.price = price;
     }
 
-    // Method to apply discount
     public void applyDiscount(double percentage) {
         if (percentage > 0 && percentage <= 100) {
             double discountAmount = price * (percentage / 100);

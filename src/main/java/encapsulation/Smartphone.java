@@ -5,7 +5,6 @@ public class Smartphone {
     private String model;
     private int storageCapacity;
 
-    // Getters and Setters
     public String getBrand() {
         return brand;
     }
@@ -30,7 +29,6 @@ public class Smartphone {
         this.storageCapacity = storageCapacity;
     }
 
-    // Method to increase storage
     public void increaseStorage(int value) {
         if (value > 0) {
             storageCapacity += value;

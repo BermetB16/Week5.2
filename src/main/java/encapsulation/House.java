@@ -6,7 +6,6 @@ public class House {
     private double area;
     private double pricePerSqm = 2500; // Price per square meter
 
-    // Getters and Setters
     public String getAddress() {
         return address;
     }
@@ -31,7 +30,6 @@ public class House {
         this.area = area;
     }
 
-    // Method to calculate price
     public double calculatePrice() {
         return area * pricePerSqm;
     }

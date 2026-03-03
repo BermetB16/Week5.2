@@ -7,7 +7,6 @@ public class Account {
         public Account(String accountNumber, double balance) {
             boolean isValid = true;
 
-            // Validate accountNumber
             if (accountNumber == null) {
                 System.out.println("Error: Account number cannot be null");
                 isValid = false;
@@ -16,7 +15,6 @@ public class Account {
                 isValid = false;
             }
 
-            // Validate balance
             if (balance < 0) {
                 System.out.println("Error: Balance cannot be negative");
                 isValid = false;
@@ -33,7 +31,6 @@ public class Account {
             }
         }
 
-        // Getter methods
         public String getAccountNumber() {
             return accountNumber;
         }
